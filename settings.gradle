@@ -1,0 +1,28 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+//dependencyResolutionManagement {
+//    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+//    repositories {
+//        google()
+//        mavenCentral()
+//    }
+//}
+rootProject.name = "OpenEyes"
+include ':app'
+include ':moudle-user'
+include ':library-base'
+include ':library-common'
+include ':library-network'
+include ':library-servicemanager'
+include ':library-video'
+include ':module-community'
+include ':module-home'
+include ':module-main'
+include ':module-more'
+include ':module-player'
+include ':library-public'

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wuchen.library_servicemanager">
+
+    <application>
+
+        <provider
+            android:exported="false"
+            android:authorities="${applicationId}.svcmgr"
+            android:name="com.wuchen.library_servicemanager.ServiceProvider" />
+
+    </application>
+
+</manifest>
